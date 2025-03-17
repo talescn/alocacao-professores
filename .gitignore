@@ -3,15 +3,31 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# Arquivos de ambiente virtual
+# Distribuição / empacotamento
+dist/
+build/
+*.egg-info/
+
+# Ambientes virtuais
 venv/
 env/
 ENV/
 
-# Arquivos de dados
+# IDEs e editores
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Arquivos de dados gerados
 *.json
 *.csv
+!requirements.json
+
+# Logs e arquivos temporários
+*.log
+*.tmp
 
 # Arquivos do sistema
-.DS_Store
 Thumbs.db 
